@@ -1,0 +1,31 @@
+import = [
+  "~/.config/alacritty/midnight-haze.toml"
+]
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 9
+normal.family = "JetBrainsMono Nerd Font Mono"
+
+[window]
+decorations = "None"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+

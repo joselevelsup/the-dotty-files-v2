@@ -1,0 +1,25 @@
+theme = "base16_transparent"
+
+[editor]
+line-number = "relative"
+cursorline = true
+cursorcolumn = true
+bufferline = "multiple"
+insert-final-newline = false
+popup-border = "all"
+
+[editor.statusline]
+left = ["mode", "diagnostics", "version-control", "spinner"]
+center = ["file-name"]
+right = ["selections", "position", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "N"
+mode.insert = "I"
+mode.select = "V"
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
+[editor.whitespace.characters]
+tab = "→"

@@ -1,0 +1,11 @@
+[[search_dirs]]
+path = "/home/skippy/Documents/personal"
+depth = 10
+
+[[search_dirs]]
+path = "/home/skippy/Documents/work/periodikal"
+depth = 10
+
+[[search_dirs]]
+path = "/home/skippy/Documents/work/tkh"
+depth = 10
